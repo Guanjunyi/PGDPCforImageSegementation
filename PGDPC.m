@@ -32,6 +32,7 @@ for i=1:n
 end
 %% label initialization
 for i=1:n; subL(i)=-1; end %% subL:sub label from subtrees (subclusters)
+%% sub label Assignation
 NRNs = length(RNs);%% NRNs:Number of root nodes
 subL(RNs) = (1:NRNs);
 for i=1:n
